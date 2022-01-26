@@ -12,7 +12,9 @@
 <body>
     <div id="root">
         <h1>{{ message }}</h1>
-        <img :src="media" :alt="message">
+        <img :src="media" :alt="message"> <br>
+        <p>Inserisci link per visualizzare un immagine</p>
+        <input type="text" v-model="media">
     </div>
     <script src="js/script.js"></script>
 </body>
